@@ -1,0 +1,85 @@
+/**
+ * Body CSS
+ */
+html,
+body {
+  height: 100%;
+	font-family: 'Lato', sans-serif;
+	background-color: #F0F0F0;
+	color: #171717;
+}
+
+html,
+body,
+input,
+textarea,
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+
+/**
+ * Header CSS
+ */
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+header ul.mui-list--inline {
+  margin-bottom: 0;
+}
+
+header a {
+  color: white;
+}
+
+header table {
+  width: 100%;
+}
+a {color:#005EA2;}
+.mui-appbar {background-color:#005EA2;}
+.top-spacer {height: 32px;}
+.mui--appbar-height {height: 88px;}
+.mui--text-body2 {font-weight: 400;}
+.mui--text-display1{font-weight:600;}
+.mui-panel {border-radius:4px;}
+.sponsor {color: #9A9999;}
+.vote-form {background-color:#D9E8F6; padding: 10px;border-radius: 4px;border: 1px solid #DFE1E2;}
+.mui-textfield {border: 1px solid #DFE1E2;border-radius:4px; margin:8px;padding: 8px 5px 1px 5px;background-color: #fff;}
+
+
+/**
+ * Content CSS
+ */
+#content-wrapper {
+  min-height: 100%;
+
+  /* sticky footer */
+  box-sizing: border-box;
+  margin-bottom: -100px;
+  padding-bottom: 100px;
+}
+
+
+/**
+ * Footer CSS
+ */
+footer {
+  box-sizing: border-box;
+  height: 100px;
+  background-color: #8B1303;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 35px;
+}
+footer a {
+	color:#fff;
+}
+footer li {
+		color: #fff;
+}
